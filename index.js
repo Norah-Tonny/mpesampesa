@@ -4,6 +4,7 @@ const dotenv = require("dotenv")
 const mongoose = require("mongoose")
 const port = process.env.PORT || 5000
 const mpesaRoutes = require("./routes/mpesa")
+
 dotenv.config()
  
 mongoose.connect(process.env.MONG0_URL)
