@@ -23,7 +23,9 @@ app.use(express.json())
 
 
 const corsOptions={
-origin: "*"
+origin: "*",
+"Access-Control-Allow-Origin": "*"
+
     
     }
 app.use("/api", mpesaRoutes);
