@@ -27,11 +27,11 @@ const corsOptions={
 
     
     }
+    app.use(cors(corsOptions))
 app.use("/api", mpesaRoutes);
 
 
 
-app.use(cors(corsOptions))
 
 
 
