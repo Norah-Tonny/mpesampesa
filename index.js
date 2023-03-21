@@ -23,7 +23,7 @@ app.use(express.json())
 
 
 const corsOptions={
-    origin:"*"
+    origin:"https://mpesampesa.onrender.com/api/stk/push"
     
     }
 app.use("/api", mpesaRoutes);
