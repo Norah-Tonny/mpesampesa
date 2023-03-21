@@ -23,7 +23,8 @@ app.use(express.json())
 
 
 const corsOptions={
-"Access-Control-Allow-Origin": "*"
+"Access-Control-Allow-Origin": "*",
+"Access-Control-Allow-Methods": "*"
 
     
     }
